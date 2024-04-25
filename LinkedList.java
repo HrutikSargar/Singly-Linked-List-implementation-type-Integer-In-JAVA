@@ -1,7 +1,5 @@
 package DSA.LinkedList.Implementation;
 
-import java.lang.reflect.AnnotatedArrayType;
-
 public class LinkedList {
     private    Node head;
     private Node tail;
