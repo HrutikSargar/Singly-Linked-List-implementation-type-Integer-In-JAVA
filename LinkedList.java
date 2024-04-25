@@ -1,17 +1,21 @@
 package DSA.LinkedList.Implementation;
 
 public class LinkedList {
-    private    Node head;
+    
+    private Node head;
+    
     private Node tail;
+    
     int size;
+    
     public LinkedList() {
         this.size = 0;
     }
+    
     public void addFirst(int value){
 
         Node node=new Node(value);
-
-
+        
         node.next=head;
         //declare current node as head.
         head=node;
