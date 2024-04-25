@@ -18,6 +18,5 @@ Several methods are implemented to perform operations on the linked list:
 7. `remove(int index)`: Removes the first occurrence of the node at the specified index from the list.
 8. `get(int index)`: Retrieves the integer value of the node at the specified index in the list.
 9. `peek()`: Retrieves the integer value stored in the first node of the list without removing it.
-10. `poll()`: Retrieves the integer value stored in the Last node of the list.
 
 This implementation provides a versatile and efficient way to work with singly linked lists containing integer values in Java, suitable for various applications requiring dynamic data storage and manipulation.
