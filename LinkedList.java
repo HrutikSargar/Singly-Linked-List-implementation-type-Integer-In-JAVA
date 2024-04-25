@@ -106,7 +106,7 @@ public class LinkedList {
      }
 
      //get any Node reference  by giving index
-     public Node get1(int index){
+     private Node get1(int index){
 
          if (index>size){
              return null;
