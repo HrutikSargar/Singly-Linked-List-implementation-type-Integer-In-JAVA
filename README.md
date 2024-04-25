@@ -15,7 +15,7 @@ Several methods are implemented to perform operations on the linked list:
 4. `removeFirst()`: Removes the first node from the list.
 5. `removeLast()`: Removes the last node from the list.
 6. `set(int index, int value)`: Sets the value of the node at the specified index to the given integer value.
-7. `remove(int value)`: Removes the first occurrence of the node containing the specified integer value from the list.
+7. `remove(int index)`: Removes the first occurrence of the node at the specified index from the list.
 8. `get(int index)`: Retrieves the integer value of the node at the specified index in the list.
 9. `peek()`: Retrieves the integer value stored in the first node of the list without removing it.
 10. `poll()`: Retrieves the integer value stored in the Last node of the list.
