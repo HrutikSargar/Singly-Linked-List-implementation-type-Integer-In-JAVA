@@ -21,7 +21,6 @@ public class MainApp {
         System.out.println(linkedList.get(2));//12
 
         System.out.println("Peek is  : "+linkedList.peek());//Peek is  : 99
-        System.out.println("Poll is : "+linkedList.poll());//Poll is : 56
 
         System.out.println("size "+linkedList.size);//size 4
         System.out.println("get element at index "+linkedList.get(2));
