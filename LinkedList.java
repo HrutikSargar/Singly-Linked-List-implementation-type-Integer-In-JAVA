@@ -37,18 +37,6 @@ public class LinkedList {
         return head.val;
     }
 
-    //to return tail
-    public int poll(){
-        if (size==1){
-            return peek();
-        }
-        Node node=head;
-
-       for (int a=0;a<size-1;a++){
-           node=node.next;
-       }
-        return node.val;
-    }
     public void addLast(int val){
         //if LL is null then add that element to first index
         // for that we are calling insertFirst(val) method.
