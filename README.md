@@ -5,7 +5,7 @@ This Java implementation provides a singly linked list data structure tailored f
 
 The `Node` class encapsulates the individual elements of the linked list. Each node contains two fields: `val`, which holds the integer value, and `next`, a reference to the next node in the list. Two constructors are provided for flexibility in node creation.
 
-The `LinkedList` class serves as the container for the linked list. It maintains three fields: `size`, indicating the number of elements in the list, `head`, a reference to the first node, and `tail`, a reference to the last node. The constructor initializes these fields.
+The `LinkedList` class serves as the container for the linked list. It maintains three fields: `size`, indicating the number of elements in the list, `head`, a reference to the first node, and `tail`, a reference to the last node. The constructor which initializes size to the 0 when we create new LinkedList.
 
 Several methods are implemented to perform operations on the linked list:
 
